@@ -77,10 +77,12 @@ font-family: AppleMyungjo, sans-serif;
 color: whitesmoke;
 font-size: 32px;
 opacity: 0.80;
+text-shadow: whitesmoke 1px 0px 4px;
 }  /* первое слово заголовка сверху */
 
 .showcase__header span {
   color: var(--accent);
+  text-shadow: var(--accent) 1px 0px 4px;
 } /* на второе слово сверху ставим акцентный цвет другой */
 
 .showcase__content-wrapper {
